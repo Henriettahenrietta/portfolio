@@ -146,4 +146,156 @@ align-items: center;
 
 
     }
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .abt_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+        margin-top: 25px;
+        background-image: url(./assets/images/substitute.jpg) ,url(./assets/images/mask_group.png);
+        background-repeat: no-repeat;
+        background-position: left bottom, top right;
+        background-size: 100px auto,80px;
+        padding: 30px 10px;
+    }
+    .abt_text_title{
+        font-size: 25px;
+        color: #172b4d;
+        font-weight: bold;
+        text-align: center;
+    }
+    .abt_text_para{
+        font-size: 25px;
+        text-align: center;
+        margin: 1px 10px;
+    }
+    .abt_text_button button{
+        background-color: #36b37f;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        font-size: 20px;
+        margin-top: 10px;
+        border-radius: 3px;
+    }
+    .abt_cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+        margin: 25px 10px;
+    }
+    .abt_card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid #EBF0EE;
+        border-radius: 10px;
+        padding: 40px 20px;
+        width: 330px;
+        max-width: 330px;
+    }
+    .abt_card_icon{
+        width: 130px;
+        height: 130px;
+        border-radius: 6px;
+    }
+
+    .abt_card_title{
+        font-size: 25px;
+        font-weight: bold;
+        align-items: center;
+        gap: 5px;
+        list-style: none;
+    
+    }
+    .abt_card_title{
+        font-size: 25px;
+        font-weight: bold;
+        color: #3a4a42;
+        margin-bottom: 15px;
+    }
+    .abt_card_list ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        list-style: none;
+        width: 330px;
+        flex-wrap: wrap;
+    }
+    .abt_card_list ul li{
+        padding: 5px 10px;
+        background-color: #fff;
+        border-radius:5px;
+        text-wrap: nowrap;
+        color: #36b37f;
+    }
+    .abt_paragraph{
+        font-size: 45px;
+        font-weight: bold;
+        color: #344563;
+        margin: 10px 20px;
+        text-align: center;
+    }
+    form{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+    }
+    form input{
+        padding: 15px 15px;
+        width: 330;
+        border: 2px solid #fff;
+        border-radius: 4px;
+    }
+    form input::placeholder{
+        font-size: 20px;
+        color: #9099a8;
+    }
+    textarea{
+        width: 330px;
+        padding: 50px 15px;
+        border-radius: 7px;
+        border: 1px solid #36b37f;
+    }
+     textarea::placeholder{
+        font: 17px;
+        color: #344563;
+
+    }
+    .form_button{
+        padding: 5px 10px;
+        background-color: #36b37f;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+        flex-direction: column;
+        font-size: 22px;
+        align-items: center;
+        margin: 20px 5px 10px 5px;
+        color: #172b4d;
+        font-weight: bold;
+    }
 }
